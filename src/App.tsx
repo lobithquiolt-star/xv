@@ -177,7 +177,7 @@ export default function App() {
             <div className="mt-3 flex items-center justify-center gap-4">
               <span className="h-px w-12 bg-[#b79b88]" />
               <time className="text-[15px] font-semibold tracking-[0.24em] text-[#781022] uppercase">
-                26 · Diciembre · 2026
+                26·Diciembre·2026
               </time>
               <span className="h-px w-12 bg-[#b79b88]" />
             </div>
