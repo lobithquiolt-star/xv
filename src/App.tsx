@@ -292,7 +292,7 @@ export default function App() {
             <h2 className="mt-3 font-display text-4xl italic">
               Confirma tu asistencia Y Número de Acompañantes
             </h2>
-            <p className="mx-auto mt-3 max-w-xs font-serif italic text-[#75635a]">
+            <p className="mx-auto mt-3 max-w-xs font-serif italic text-[#75635a] text-[15px]" >
               Porque tu presencia es muy especial para nosotros y mereces que te atendamosde lo mejor, por eso te pedimos nos  confirmes tu asistencia y la de tus acompañantes.
             </p>
 
