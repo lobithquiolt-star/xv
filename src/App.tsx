@@ -293,7 +293,7 @@ export default function App() {
               Confirma tu asistencia Y Número de Acompañantes
             </h2>
             <p className="mx-auto mt-3 max-w-xs font-serif italic text-[#75635a]">
-              Nos encantará contar contigo en este día tan especial.
+              Porque tu presencia es muy especial para nosotros y mereces que te atendamosde lo mejor, por eso te pedimos nos  confirmes tu asistencia y la de tus acompañantes.
             </p>
 
             <button
