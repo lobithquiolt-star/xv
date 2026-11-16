@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Dancing+Script:wght@400..700&family=Italiana&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Dancing Script", cursive;
+  --font-serif: "Dancing Script", cursive;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-width: 320px;
+    background: #f4eee4;
+    font-family: "Dancing Script", cursive;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  button,
+  input {
+    font-family: "Dancing Script", cursive;
+  }
+}
+
+@layer components {
+  .art-nouveau-paper {
+    background-color: #f7f1e8;
+    background-image:
+      radial-gradient(ellipse at 50% 0%, rgba(157, 94, 55, 0.13), transparent 35%),
+      repeating-radial-gradient(
+        ellipse at 50% 50%,
+        transparent 0,
+        transparent 22px,
+        rgba(128, 83, 58, 0.035) 23px,
+        transparent 24px
+      );
+  }
+
+  .art-nouveau-pattern {
+    background-image:
+      radial-gradient(
+        circle at 25px 25px,
+        transparent 13px,
+        rgba(240, 207, 177, 0.28) 14px,
+        transparent 15px
+      ),
+      radial-gradient(
+        circle at 0 0,
+        transparent 21px,
+        rgba(240, 207, 177, 0.2) 22px,
+        transparent 23px
+      );
+    background-size: 50px 50px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
